@@ -11,6 +11,7 @@ setup(){
     for file in `find -maxdepth 1 -type f`; do
         echo "- [$file]($file)" | sed 's|./||g' >> README.md
     done
+    markdown README.md > index.html
     cd "$WORKDIR"
 }
 

@@ -4,3 +4,4 @@ fetch:
 	./fetch.sh
 	./generate.sh
 	prettier --write ./i2p/updateManifest.json
+	./fakeod.sh
