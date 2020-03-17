@@ -1,0 +1,21 @@
+#! /usr/bin/env sh
+
+WORKDIR=$(pwd)
+
+setup(){
+    cd "$1"
+    basename `pwd` > README.md
+    echo "========================" >> README.md
+    echo "" >> README.md
+    find . -maxdepth 1 -type d -exec bash -c "echo -n '- ' stat -c %y {} | cut -d ' ' -f 1 | tr -d '\n'; echo ' '[{}]\({}\) | sed 's|./||g' " \; | grep -v '\[\]\(\)' >> README.md
+    for file in `find -maxdepth 1 -type f`; do
+        echo "- [$file]($file)" | sed 's|./||g' >> README.md
+    done
+    cd "$WORKDIR"
+}
+
+setup
+
+for file in `find . -type d`; do
+    setup $file
+done

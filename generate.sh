@@ -19,7 +19,7 @@ echo '    }' >> ./i2p/updateManifest.json
 echo '  }' >> ./i2p/updateManifest.json
 echo '}' >> ./i2p/updateManifest.json
 
-sed '
+sed -i '
     $x;$G;/\(.*\),/!H;//!{$!d
 };  $!x;$s//\1/;s/^\n//' ./i2p/updateManifest.json
 
