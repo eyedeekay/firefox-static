@@ -1,0 +1,88 @@
+{
+  "addons": {
+    "i2ppb@eyedeekay.github.io": {
+      "updates": [
+        {
+          "update_url": "http://127.0.0.1:7657/i2psnark/i2ppb-0.31@eyedeekay.github.io.xpi",
+          "version": "0.31",
+          "update_hash": "sha256sum:4e1470b57acd8d41139326a80c61a60055e9253a50465c676e1ea69ce0970fe9"
+        },
+        {
+          "update_url": "http://127.0.0.1:7657/i2psnark/i2ppb-0.35@eyedeekay.github.io.xpi",
+          "version": "0.35",
+          "update_hash": "sha256sum:661ff0cba3f482b2a237f50c5bf23a03a456f751f187ced82121559df54286f3"
+        },
+        {
+          "update_url": "http://127.0.0.1:7657/i2psnark/i2ppb-0.36@eyedeekay.github.io.xpi",
+          "version": "0.36",
+          "update_hash": "sha256sum:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "update_url": "http://127.0.0.1:7657/i2psnark/i2ppb-0.37@eyedeekay.github.io.xpi",
+          "version": "0.37",
+          "update_hash": "sha256sum:cb12956a6e59293c78df4a9a6ca64daa499a9ab552fda28f365c581787746468"
+        },
+        {
+          "update_url": "http://127.0.0.1:7657/i2psnark/i2ppb-0.41@eyedeekay.github.io.xpi",
+          "version": "0.41",
+          "update_hash": "sha256sum:d38c5e7d7bba694ffa9cebee11b7a9396702bc9e737003fc5c25b36ea5aa5704"
+        },
+        {
+          "update_url": "http://127.0.0.1:7657/i2psnark/i2ppb-0.43@eyedeekay.github.io.xpi",
+          "version": "0.43",
+          "update_hash": "sha256sum:80f060d4949e023bcf45f1c3127ab4080e1cb1ad9f9ebb83b098440253f8c91d"
+        },
+        {
+          "update_url": "http://127.0.0.1:7657/i2psnark/i2ppb-0.45@eyedeekay.github.io.xpi",
+          "version": "0.45",
+          "update_hash": "sha256sum:f3b9ff00525571a2397c06e512f05515ce3f277cbcfd5f98d0c79799c018d890"
+        },
+        {
+          "update_url": "http://127.0.0.1:7657/i2psnark/i2ppb-0.47@eyedeekay.github.io.xpi",
+          "version": "0.47",
+          "update_hash": "sha256sum:c2787313845314e3d809a98b625d14f26294d1a819d783e152974b8c2d66c149"
+        },
+        {
+          "update_url": "http://127.0.0.1:7657/i2psnark/i2ppb-0.49@eyedeekay.github.io.xpi",
+          "version": "0.49",
+          "update_hash": "sha256sum:a3882bc6e90380aade54a0cde6d453f64da2d7008698ea5d23a185e688360fe4"
+        },
+        {
+          "update_url": "http://127.0.0.1:7657/i2psnark/i2ppb-0.51@eyedeekay.github.io.xpi",
+          "version": "0.51",
+          "update_hash": "sha256sum:2c5162b675813e3b1b0fbfeab452c48c9d7879f498335d8c1e291a4cbba14f95"
+        },
+        {
+          "update_url": "http://127.0.0.1:7657/i2psnark/i2ppb-0.53@eyedeekay.github.io.xpi",
+          "version": "0.53",
+          "update_hash": "sha256sum:1abbe36177b683e541406df0fbdf91665ea183bd0e9a9062aeca3d74c78cd162"
+        },
+        {
+          "update_url": "http://127.0.0.1:7657/i2psnark/i2ppb-0.55@eyedeekay.github.io.xpi",
+          "version": "0.55",
+          "update_hash": "sha256sum:2a96526970e87c2ec38518f6d58323292337ea4251c0484bbf4b9dcf49073307"
+        },
+        {
+          "update_url": "http://127.0.0.1:7657/i2psnark/i2ppb-0.57@eyedeekay.github.io.xpi",
+          "version": "0.57",
+          "update_hash": "sha256sum:ba8e432881f5809a7e3b01972178be684a281d36e33d3e8bd1352134e53ff544"
+        },
+        {
+          "update_url": "http://127.0.0.1:7657/i2psnark/i2ppb-0.59@eyedeekay.github.io.xpi",
+          "version": "0.59",
+          "update_hash": "sha256sum:cf754f30ad77fbd14873b57bc996b9e62c6bb6301b87edb6b517294f3895030b"
+        },
+        {
+          "update_url": "http://127.0.0.1:7657/i2psnark/i2ppb-0.61@eyedeekay.github.io.xpi",
+          "version": "0.61",
+          "update_hash": "sha256sum:c891c41542f8f0e8a30d1a8212f5eff818e40b086c8672fd7133b14f5a6ad175"
+        },
+        {
+          "update_url": "http://127.0.0.1:7657/i2psnark/i2ppb-0.63@eyedeekay.github.io.xpi",
+          "version": "0.63",
+          "update_hash": "sha256sum:a63e4fec2de2d06de2ec77d155b0942563377ecb79b96d341ec0604d5ec6a141"
+        }
+      ]
+    }
+  }
+}
