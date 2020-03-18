@@ -7,5 +7,5 @@ VOLUME "/server/"
 COPY . /opt/site
 WORKDIR /server/site
 RUN make -C /opt/site -f /opt/site/Makefile fetch build
-CMD RUN make -f /opt/site/Makefile keys && /opt/site/firefox-static
+CMD RUN make -f /opt/site/Makefile keys && cp -r /opt/site/ /server/site/ &&  /opt/site/firefox-static
 
