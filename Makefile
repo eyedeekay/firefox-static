@@ -26,3 +26,5 @@ keys:
 
 host:
 	./firefox-static
+
+
