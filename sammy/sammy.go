@@ -14,7 +14,7 @@ func Sammy() (*sam3.StreamListener, error) {
 			if keys, err := i2pkeys.LoadKeysIncompat(file); err != nil {
 				return nil, err
 			} else {
-				if stream, err := sam.NewStreamSession("serverTun", keys, sam3.Options_Medium); err != nil {
+				if stream, err := sam.NewStreamSession("serverTun", keys, sam3.Options_Fat); err != nil {
 					return nil, err
 				} else {
 					return stream.Listen()
@@ -30,7 +30,7 @@ func Sammy() (*sam3.StreamListener, error) {
 					if err := i2pkeys.StoreKeysIncompat(keys, file); err != nil {
 						return nil, err
 					}
-					if stream, err := sam.NewStreamSession("serverTun", keys, sam3.Options_Medium); err != nil {
+					if stream, err := sam.NewStreamSession("serverTun", keys, sam3.Options_Fat); err != nil {
 						return nil, err
 					} else {
 						return stream.Listen()
