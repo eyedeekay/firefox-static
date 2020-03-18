@@ -7,7 +7,7 @@ fetch:
 	./fakeod.sh
 
 build:
-	go get -u github.com/eyedeekay/firefox-static/sammy;true
+	go get -u github.com/eyedeekay/firefox-static/sammy
 	go build
 
 docker:
