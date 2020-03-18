@@ -6,9 +6,23 @@ fetch:
 	prettier --write ./i2p/updateManifest.json
 	./fakeod.sh
 
+build:
+	go get -u github.com/eyedeekay/firefox-static/sammy
+	go build
+
+docker:
+	docker build -t firefox-static .
+	docker -dit \
+		--restart=always \
+		--network=host \
+		--name=firefox-static \
+		--volume /srv/https/:/server \
+		firefox-static
+
 keys:
 	openssl ecparam -genkey -name secp384r1 -out ../tls.key
-	openssl req -new -x509 -sha256 -key ../tls.key -out ../tls.crt -days 3650
+	openssl req -subj '/CN=./O=i2pinprivatebrowsing LTD./C=US' -new -x509 -sha256 -key ../tls.key -out ../tls.crt -days 3650
+	touch keys
 
 host:
 	./firefox-static

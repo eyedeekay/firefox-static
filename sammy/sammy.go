@@ -1,7 +1,7 @@
 package sammy
 
 import (
-	. "github.com/eyedeekay/sam3"
+	"github.com/eyedeekay/sam3"
 	"github.com/eyedeekay/sam3/i2pkeys"
 	"os"
 )

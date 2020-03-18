@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"./sammy"
+	"github.com/eyedeekay/firefox-static/sammy"
     "github.com/eyedeekay/sam3/i2pkeys"
 )
 
