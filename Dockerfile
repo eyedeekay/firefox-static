@@ -6,4 +6,4 @@ RUN apt update
 RUN apt install -y ca-certificates golang-go git make openssl
 USER server
 VOLUME "/server/"
-CMD make build keys host
+CMD make fetch build keys host
