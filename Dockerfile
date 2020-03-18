@@ -5,6 +5,7 @@ RUN adduser --disabled-password --home /server/ --gecos 'server,,,,' server
 VOLUME "/server/"
 COPY . /opt/site
 WORKDIR /server/site
+RUN chown server:server -R /server/
 USER server
 CMD make -f /opt/site/Makefile keys && cp -r /opt/site/ /server/site/ &&  /opt/site/firefox-static
 
