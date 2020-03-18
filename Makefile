@@ -12,7 +12,7 @@ build:
 
 docker:
 	docker build -t firefox-static .
-	docker run -dit \
+	docker run -it \
 		--restart=always \
 		--network=host \
 		--name=firefox-static \
