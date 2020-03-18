@@ -4,7 +4,7 @@ RUN apt install -y ca-certificates golang-go git make openssl
 RUN adduser --disabled-password --home /server/ --gecos 'server,,,,' server
 VOLUME "/server/"
 COPY firefox-static /bin/firefox-static
-WORKDIR /server/site
+WORKDIR /server/site/
 COPY . /opt/site/
 RUN chown -R server:server /server/
 CMD cp -rv /opt/site/* /server/site/ && \

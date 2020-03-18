@@ -21,7 +21,7 @@ docker:
 
 keys:
 	openssl ecparam -genkey -name secp384r1 -out ../tls.key
-	openssl req -subj '/CN=./O=i2pinprivatebrowsing LTD./C=US' -new -x509 -sha256 -key ../tls.key -out ../tls.crt -days 3650
+	openssl req -subj '/C=US' -new -x509 -sha256 -key ../tls.key -out ../tls.crt -days 3650
 	touch keys
 
 host:
