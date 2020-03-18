@@ -6,6 +6,7 @@ VOLUME "/server/"
 COPY . /opt/site
 WORKDIR /server/site
 RUN chown -R server:server /server/
-USER server
-CMD make -f /opt/site/Makefile keys && cp -r /opt/site/ /server/site/ &&  /opt/site/firefox-static
+CMD make -f /opt/site/Makefile keys && \
+    cp -r /opt/site/ /server/site/ && \
+    su - server /opt/site/firefox-static
 
