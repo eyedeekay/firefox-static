@@ -2,10 +2,13 @@ i2p
 ========================
 
 - [.](.)
+- [index.html](index.html)
 - [i2ppb-0.43@eyedeekay.github.io.xpi](i2ppb-0.43@eyedeekay.github.io.xpi)
 - [i2ppb-0.49@eyedeekay.github.io.xpi](i2ppb-0.49@eyedeekay.github.io.xpi)
+- [i2ppb-0.67@eyedeekay.github.io.xpi](i2ppb-0.67@eyedeekay.github.io.xpi)
 - [i2ppb-0.57@eyedeekay.github.io.xpi](i2ppb-0.57@eyedeekay.github.io.xpi)
 - [i2ppb-0.59@eyedeekay.github.io.xpi](i2ppb-0.59@eyedeekay.github.io.xpi)
+- [i2ppb-0.65@eyedeekay.github.io.xpi](i2ppb-0.65@eyedeekay.github.io.xpi)
 - [i2ppb-0.55@eyedeekay.github.io.xpi](i2ppb-0.55@eyedeekay.github.io.xpi)
 - [README.md](README.md)
 - [i2ppb-0.63@eyedeekay.github.io.xpi](i2ppb-0.63@eyedeekay.github.io.xpi)

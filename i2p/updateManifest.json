@@ -81,6 +81,16 @@
           "update_url": "http://127.0.0.1:7657/i2psnark/i2ppb-0.63@eyedeekay.github.io.xpi",
           "version": "0.63",
           "update_hash": "sha256sum:a63e4fec2de2d06de2ec77d155b0942563377ecb79b96d341ec0604d5ec6a141"
+        },
+        {
+          "update_url": "http://127.0.0.1:7657/i2psnark/i2ppb-0.65@eyedeekay.github.io.xpi",
+          "version": "0.65",
+          "update_hash": "sha256sum:e929833f31f2f134ee68c0d2f9d2e7f7b9462a7e13bf824fa7f47161438ac9b4"
+        },
+        {
+          "update_url": "http://127.0.0.1:7657/i2psnark/i2ppb-0.67@eyedeekay.github.io.xpi",
+          "version": "0.67",
+          "update_hash": "sha256sum:129063591a1c32424de70e753d392dad3b8cd073d987dd55f8da5b26406ae931"
         }
       ]
     }
