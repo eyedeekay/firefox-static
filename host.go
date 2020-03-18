@@ -4,6 +4,7 @@ import (
 	"crypto/tls"
 	"log"
 	"net/http"
+    "time"
 
 	"github.com/eyedeekay/firefox-static/sammy"
     "github.com/eyedeekay/sam3/i2pkeys"
@@ -29,6 +30,8 @@ func main() {
 		Handler:      fs,
 		TLSConfig:    cfg,
 		TLSNextProto: make(map[string]func(*http.Server, *tls.Conn, http.Handler), 0),
+        ReadTimeout:    600 * time.Second,
+        WriteTimeout:   600 * time.Second,
 	}
 
 	i2plistener, err := sammy.Sammy()
